@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker Hewan</title>
+
+    <link rel="stylesheet" href="gambar.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Pilih Gambar Hewan</h2>
+
+        <select id="imageSelect" onchange="showImage()">
+            <option value="">-- Pilih Hewan --</option>
+            <option value="anjing.jpg">Anjing</option>
+            <option value="gajah.jpg">Gajah</option>
+            <option value="harimau.jpg">Harimau</option>
+            <option value="kucing.jpg">Kucing</option>
+            <option value="singa.jpg">Singa</option>
+        </select>
+
+        <div class="image-box">
+            <img id="preview" src="" alt="">
+        </div>
+    </div>
+
+    <script src="gambar.js"></script>
+</body>
+</html>
